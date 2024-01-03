@@ -1,0 +1,44 @@
+.slideshow {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .slide-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+    box-sizing: border-box;
+  }
+  
+  .nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .prev-button {
+    left: 0;
+    bottom: 40;
+  }
+  
+  .next-button {
+    right: 0;
+  }
+  
+  .active {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .image{
+    height: 270px;
+    width: 170px;
+  }
